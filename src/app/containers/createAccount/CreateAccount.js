@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import Pano from "../../components/pano/pano";
 import Steps from "../../components/steps/steps";
 import Popup from "../../components/popup/Popup";
+import { connect } from "react-redux";
+import * as selectors from "@containers/App/selectors";
 
-export default class CreateAccount extends Component {
+class CreateAccount extends Component {
   render = () => (
     <>
       <Pano
@@ -22,8 +24,10 @@ export default class CreateAccount extends Component {
                     <div class="review-plan">
                       <h1 class="font-weight-bold h2">Review your plan</h1>
                       <h3 class="font-regular">
-                        Your eFax number will be{" "}
-                        <a href="tel:(310)222-1215">(310)222-1215</a>
+                        Your eFax number will be
+                        <a href="tel:(310)222-1215">
+                          {this.props.selectedNumber}
+                        </a>
                       </h3>
                       <div class="pricing-plans-dd">
                         <div class="dropdown dropdown-list">
@@ -543,3 +547,7 @@ export default class CreateAccount extends Component {
     </>
   );
 }
+
+export default connect(state => ({
+  selectedNumber: selectors.getSelectedNumber(state)
+}))(CreateAccount);

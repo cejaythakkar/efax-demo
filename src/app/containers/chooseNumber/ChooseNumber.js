@@ -9,9 +9,11 @@ import Steps from "../../components/steps/steps";
 import cloud from "../../../assets/images/icon-cloud.svg";
 import fax from "../../../assets/images/icon-fax.svg";
 import closeButton from "../../../assets/images/icon-exit.svg";
-import { get } from "../../lib/http/http-service";
+import { get } from "@/app/lib/http/http-service";
+import { connect } from "react-redux";
+import * as Actions from "@containers/App/actions";
 
-export default class ChooseNumber extends Component {
+class ChooseNumber extends Component {
   state = {
     togglebuttonSelectedCategory: "local",
     useCurrentNumber: false,
@@ -26,15 +28,12 @@ export default class ChooseNumber extends Component {
     suggestedNumbers: [],
     searchedCode: ""
   };
-  componentDidMount() {
-    get("https://jsonplaceholder.typicode.com/posts", null, {}, false)
-      .then(response => {
-        console.log(response);
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  }
+  ChooseNumberHandler = number => {
+    this.props.setSelectedNumber(number);
+    this.props.history.replace({
+      pathname: "/create-account"
+    });
+  };
   handleClick = value => {
     this.setState({ togglebuttonSelectedCategory: value });
   };
@@ -48,6 +47,7 @@ export default class ChooseNumber extends Component {
     });
   };
   render() {
+    const number = "(310) 222-1313";
     return (
       <>
         <Pano
@@ -168,14 +168,10 @@ export default class ChooseNumber extends Component {
                             </p>
                             <p className="m-b-25 text-center">
                               <a
-                                onClick={e =>
-                                  this.props.history.replace({
-                                    pathname: "/create-account"
-                                  })
-                                }
+                                onClick={() => this.ChooseNumberHandler(number)}
                                 className="cta cta-lg cta-red cta-block"
                               >
-                                Choose (310) 222-1215
+                                Choose {number}
                               </a>
                             </p>
                             <p className="font-bold m-b-25 text-center">
@@ -260,3 +256,10 @@ export default class ChooseNumber extends Component {
     );
   }
 }
+
+export default connect(
+  null,
+  {
+    setSelectedNumber: Actions.setSelectedNumber
+  }
+)(ChooseNumber);
