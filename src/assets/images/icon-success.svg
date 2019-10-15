@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icons/Feedback/Success/Success-Filled-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Hi-Fi-Flows-V1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A5---Port-my-fax---enter-number" transform="translate(-301.000000, -313.000000)">
+            <g id="Icons/Feedback/Success/Success-Filled-24" transform="translate(300.000000, 312.000000)">
+                <circle id="success" fill="#1BAB1E" cx="12" cy="12" r="11"></circle>
+                <path d="M13.7212986,14.7175144 L13.7212986,5.71751442 C13.7212986,5.16522967 14.1672688,4.71751442 14.7174008,4.71751442 C15.2675329,4.71751442 15.7135031,5.16522967 15.7135031,5.71751442 L15.7135031,15.7175144 C15.7135031,16.2697992 15.2675329,16.7175144 14.7174008,16.7175144 L9.7096053,16.7175144 C9.15947323,16.7175144 8.71350308,16.2697992 8.71350308,15.7175144 C8.71350308,15.1652297 9.15947323,14.7175144 9.7096053,14.7175144 L13.7212986,14.7175144 Z" id="checkmark" fill="#FFFFFF" transform="translate(12.213503, 10.717514) rotate(45.000000) translate(-12.213503, -10.717514) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

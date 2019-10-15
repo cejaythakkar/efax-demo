@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icons_Actions_Clear-16" data-name="Icons/Actions/Clear-16" clip-path="url(#clip-path)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="16" height="16" fill="none"/>
+    <path id="clear" d="M7,14a7,7,0,1,1,7-7A7.008,7.008,0,0,1,7,14ZM7,1a6,6,0,1,0,6,6A6.007,6.007,0,0,0,7,1Zm2.637,9.153a.455.455,0,0,1-.324-.132L7,7.708,7.708,7l2.313,2.313a.454.454,0,0,1,.132.339.522.522,0,0,1-.515.5Zm-5.275,0A.511.511,0,0,1,4,10a.517.517,0,0,1-.153-.362.454.454,0,0,1,.133-.324L6.293,7h0L3.98,4.687a.456.456,0,0,1-.133-.34.521.521,0,0,1,.514-.5.456.456,0,0,1,.326.133L7,6.293,6.293,7,7,7.708,4.687,10.021A.457.457,0,0,1,4.362,10.153ZM7.708,7h0L7,6.293,9.313,3.98a.454.454,0,0,1,.325-.133A.51.51,0,0,1,10,4a.488.488,0,0,1,.021.688L7.708,7Z" transform="translate(1 1)" fill="rgba(38,38,38,0.65)"/>
+  </g>
+</svg>

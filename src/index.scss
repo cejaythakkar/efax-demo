@@ -1,0 +1,193 @@
+/********************
+Global/helper styles
+*********************/
+:root {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  html,
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #231F20;
+  }
+  
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  
+  }
+  
+  a {
+    color: #006699;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #231F20;
+  }
+  
+  a.dk-grey:hover,
+  a.dk-grey:focus {
+    color: #006699;
+  }
+  
+  /*****************
+  Typography
+  *****************/
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  h1,
+  .h1 {
+    font-size: 20px;
+  }
+  
+  h2,
+  .h2 {
+    font-size: 18px;
+  }
+  
+  h3,
+  .h3 {
+    font-size: 16px;
+  }
+  
+  h4,
+  .h4 {
+    font-size: 13px;
+  
+  }
+  
+  h5,
+  .h5 {
+    font-size: 12px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .font-light {
+    font-weight: 300 !important;
+  }
+  
+  .font-regular {
+    font-weight: 400 !important;
+  }
+  
+  .font-semi-bold {
+    font-weight: 600 !important;
+  }
+  
+  .font-bold {
+    font-weight: 700 !important;
+  }
+  
+  .font-ext-bold {
+    font-weight: 800 !important;
+  }
+  
+  .row-spacing {
+    margin-bottom: 30px;
+  }
+  
+  .text-underline {
+    text-decoration: underline;
+  }
+  
+  /*****************
+  Colors
+  *****************/
+  .white {
+    color: #FFFFFF;
+  }
+  
+  .lt-green {
+    color: #1BAB1E;
+  }
+  
+  .lt-grey {
+    color: #A8A9AB;
+  }
+  
+  .dk-grey {
+    color: #231F20;
+  }
+  
+  .dk-blue {
+    color: #006699;
+  }
+  
+  .green {
+    color: #148016;
+  }
+  
+  /* ----------------------------
+  Helper class
+  ------------------------------- */
+  
+  .m-b-25 {
+    margin-bottom: 25px;
+  }
+  
+  .m-r-10 {
+    margin-right: 10px;
+  }
+  
+  /* ----------------------------
+  Form Elements
+  ------------------------------- */
+  
+  .form-group .small {
+    font-size: 85%;
+  }
+  
+  .form-control {
+    border-color: #b5b5b5;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: .65rem .75rem;
+    font-size: 16px;
+    color: #231F20;
+  }
+  
+  .form-control.input-success {
+    border: 2px solid #1BAB1E;
+    outline: none;
+  }
+  
+  .form-control.input-success:focus {
+    box-shadow: none;
+  }
+  
+  /* Placeholder css */
+  .form-control::placeholder {
+    color: #A8A9AB;
+  }
+  
+  .cc-icons {
+    max-width: 209px;
+  }
+  
+  .mtb-10 {
+    margin: 10px 0;
+  }
+  

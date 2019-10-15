@@ -1,0 +1,45 @@
+/*======================
+Pano Css
+=======================*/
+.funnel-pano {
+  background: url(../../../assets/images/pano-bg.svg) repeat-x;
+  background-position: center;
+  height: 60px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.funnel-pano h1 {
+  color: #231f20;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.funnel-pano h1 img {
+  margin-right: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .funnel-pano {
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .funnel-pano img {
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    left: 40px;
+  }
+
+  .funnel-pano h1 {
+    margin-left: 73px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+}

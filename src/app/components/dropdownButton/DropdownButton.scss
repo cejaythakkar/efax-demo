@@ -1,0 +1,10 @@
+.dropdown-list.show .dropdown-menu{
+    display:block;
+}
+.dropdown.dropdown-list{
+    .dropdown-menu{
+        width:fit-content;
+        left:50% !important;
+        transform:translateX(-50%) !important;
+    }
+}

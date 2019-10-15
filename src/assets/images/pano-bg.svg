@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="58px" viewBox="0 0 1024 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>BG_ValueProp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1024" height="58"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Value-Prop-Rotation-Desktop">
+            <g id="BG_ValueProp">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-Copy-2" fill="#E2E2E2" xlink:href="#path-1"></use>
+                <g id="Group-Copy" opacity="0.320052085" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(0.000000, -123.000000)" id="Path">
+                        <polygon points="224 136.457771 0 0 0 218.42974 46.0141091 246"></polygon>
+                        <polygon points="198.918367 336.952251 198.918367 286.329728 314.2125 213.386612 424.664541 143.209255 198.918367 9 198.918367 74.703512 313.589571 145.43402 0 339.809189 0 562 198.918367 438.361418 198.918367 562 513 368.19014 513 145.43402"></polygon>
+                    </g>
+                </g>
+                <g id="Group-Copy-3" opacity="0.320052085" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(768.682667, 158.000000) scale(-1, 1) translate(-768.682667, -158.000000) translate(513.365333, -123.000000)" id="Path">
+                        <polygon points="224 136.457771 0 0 0 218.42974 46.0141091 246"></polygon>
+                        <polygon points="198.142857 336.952251 198.142857 286.329728 312.9875 213.386612 423.008929 143.209255 198.142857 9 198.142857 74.703512 312.367 145.43402 0 339.809189 0 562 198.142857 438.361418 198.142857 562 511 368.19014 511 145.43402"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>chevron_stepper</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stepper-New-DT-P1-1024" transform="translate(-507.000000, -22.000000)" stroke="#6C6C6C">
+            <polyline id="chevron_stepper" points="508 22 516 32 508 42"></polyline>
+        </g>
+    </g>
+</svg>

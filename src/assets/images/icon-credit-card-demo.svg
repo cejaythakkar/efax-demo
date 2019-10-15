@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="19px" viewBox="0 0 27 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Hi-Fi-Flows-V1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="C1---Account-and-Pay" transform="translate(-37.000000, -1364.000000)">
+            <g id="CC-All-1-line" transform="translate(24.000000, 1328.000000)">
+                <g id="Group-5" transform="translate(13.000000, 36.000000)">
+                    <rect id="Rectangle" fill="#E8E8E8" x="0" y="0" width="26.2380952" height="19" rx="2.71428571"></rect>
+                    <text id="1234-56789-1234-5678" font-family="OpenSans-ExtraBold, Open Sans" font-size="2.08095238" font-weight="600" fill="#818181">
+                        <tspan x="1.80952381" y="14.6666667">1234 56789 1234 5678</tspan>
+                    </text>
+                    <rect id="Rectangle" stroke="#A4A4A4" stroke-width="0.904761905" x="17.6428571" y="4.07142857" width="5.42857143" height="3.61904762" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
