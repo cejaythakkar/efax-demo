@@ -1,17 +1,16 @@
 import React, { Component } from "react";
-import Pano from "../../components/pano/pano";
-import ButtonList from "../../containers/numberButtonList/ButtonList";
-import DropdownButton from "../../components/dropdownButton/DropdownButton";
-import Input from "../../components/input/Input";
-import ToggleButton from "../../components/toggleButton/toggleButton";
-import { getSuggestedNumbers } from "../../services/number.service";
-import Steps from "../../components/steps/steps";
-import cloud from "../../../assets/images/icon-cloud.svg";
-import fax from "../../../assets/images/icon-fax.svg";
-import closeButton from "../../../assets/images/icon-exit.svg";
-import { get } from "@/app/lib/http/http-service";
 import { connect } from "react-redux";
+import Pano from "../../components/pano/pano";
+import ButtonList from "../numberButtonList/ButtonList";
+import DropdownButton from "../../components/dropdownButton/DropdownButton";
+import Input from "@components/input/Input";
+import ToggleButton from "../../components/toggleButton/toggleButton";
+import Steps from "../../components/steps/steps";
 import * as Actions from "@containers/App/actions";
+import * as chooseNumberActions from "@containers/chooseNumber/actions";
+import cloud from "@images/icon-cloud.svg";
+import fax from "@images/icon-fax.svg";
+import closeButton from "@images/icon-exit.svg";
 
 class ChooseNumber extends Component {
   state = {
@@ -28,6 +27,9 @@ class ChooseNumber extends Component {
     suggestedNumbers: [],
     searchedCode: ""
   };
+  componentDidMount() {
+    this.props.fetchAvailableNumber();
+  }
   ChooseNumberHandler = number => {
     this.props.setSelectedNumber(number);
     this.props.history.replace({
@@ -43,7 +45,7 @@ class ChooseNumber extends Component {
         this.setState({ suggestedNumbers: [] });
         return;
       }
-      this.setState({ suggestedNumbers: getSuggestedNumbers() });
+      // this.setState({ suggestedNumbers: getSuggestedNumbers() });
     });
   };
   render() {
@@ -260,6 +262,7 @@ class ChooseNumber extends Component {
 export default connect(
   null,
   {
-    setSelectedNumber: Actions.setSelectedNumber
+    setSelectedNumber: Actions.setSelectedNumber,
+    fetchAvailableNumber: chooseNumberActions.fetchAvailableNumber
   }
 )(ChooseNumber);

@@ -1,4 +1,5 @@
-export const getSuggestedNumbers = value => {
+import { AVAILABLE_NUMBER } from "./constants";
+const getSuggestedNumbers = () => {
   return [
     { number: "(714) 289-2795", location: "india" },
     { number: "(714) 289-9632", location: "ahmedabad" },
@@ -8,3 +9,18 @@ export const getSuggestedNumbers = value => {
     { number: "(714) 289-1234", location: "whatever" }
   ];
 };
+
+export const API_CALL = type =>
+  new Promise((resolve, reject) => {
+    let data;
+    switch (type) {
+      case AVAILABLE_NUMBER:
+        data = getSuggestedNumbers();
+        break;
+      default:
+        data = {};
+    }
+    setTimeout(() => {
+      resolve(data);
+    }, 3000);
+  });

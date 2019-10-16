@@ -1,10 +1,15 @@
 import { NAME as appName } from "@containers/App/constants";
 import appReducer from "@containers/App/reducer";
+import {
+  NAME as chooseNumber,
+  reducer as chooseNumberReducer
+} from "@containers/chooseNumber";
 
 export class ReducerRegistry {
   constructor() {
     this.reducers = {
-      [appName]: appReducer
+      [appName]: appReducer,
+      [chooseNumber]: chooseNumberReducer
     }; // register your default reducers here
   }
 
